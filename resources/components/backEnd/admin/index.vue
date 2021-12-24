@@ -1,8 +1,8 @@
 <template>
   <div class="row justify-content-center align-items-center vh-100">
     <div class="col-sm-7 col-md-4">
-      <div class="card">
-        <div class="card-header">
+      <div class="card card-dark">
+        <div class="card-header bg-white">
           <span class="card-title fw-bolder">Login</span>
         </div>
         <div class="card-body">

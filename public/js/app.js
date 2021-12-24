@@ -37591,7 +37591,7 @@ var render = function () {
     { staticClass: "row justify-content-center align-items-center vh-100" },
     [
       _c("div", { staticClass: "col-sm-7 col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
+        _c("div", { staticClass: "card card-dark" }, [
           _vm._m(0),
           _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
@@ -37763,7 +37763,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-header" }, [
+    return _c("div", { staticClass: "card-header bg-white" }, [
       _c("span", { staticClass: "card-title fw-bolder" }, [_vm._v("Login")]),
     ])
   },
