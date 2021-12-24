@@ -7,7 +7,7 @@
       <table
         class="
           table table-sm table-dark table-striped table-bordered
-          text-center
+          text-center rounded
         "
       >
         <thead>
@@ -19,13 +19,10 @@
         </thead>
         <tbody>
           <td>Img</td>
-          <td>Name</td>
-          <td>Title</td>
+          <td>Md Rezaul Karim Shanto</td>
+          <td>Full Stack Web Developer</td>
           <td>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-            debitis impedit obcaecati quaerat laudantium dolores eum quia,
-            corrupti maiores hic a eveniet molestiae maxime possimus
-            praesentium, autem fugit porro pariatur.
+            I am a fully professional full stack web developer Involving with latest web designing and technologies is a great feel free to contact creative.
           </td>
           <td>
             <div class="btn-group btn-group-sm border-0">

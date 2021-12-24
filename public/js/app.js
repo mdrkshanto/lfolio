@@ -37895,7 +37895,7 @@ var staticRenderFns = [
           "table",
           {
             staticClass:
-              "\n        table table-sm table-dark table-striped table-bordered\n        text-center\n      ",
+              "\n        table table-sm table-dark table-striped table-bordered\n        text-center rounded\n      ",
           },
           [
             _c("thead", [
@@ -37913,13 +37913,13 @@ var staticRenderFns = [
             _c("tbody", [
               _c("td", [_vm._v("Img")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Name")]),
+              _c("td", [_vm._v("Md Rezaul Karim Shanto")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Title")]),
+              _c("td", [_vm._v("Full Stack Web Developer")]),
               _vm._v(" "),
               _c("td", [
                 _vm._v(
-                  "\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae\n          debitis impedit obcaecati quaerat laudantium dolores eum quia,\n          corrupti maiores hic a eveniet molestiae maxime possimus\n          praesentium, autem fugit porro pariatur.\n        "
+                  "\n          I am a fully professional full stack web developer Involving with latest web designing and technologies is a great feel free to contact creative.\n        "
                 ),
               ]),
               _vm._v(" "),
