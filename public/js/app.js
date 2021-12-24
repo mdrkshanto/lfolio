@@ -7549,7 +7549,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nth[data-v-6b40bba4] {\n  white-space: nowrap;\n}\nth[data-v-6b40bba4],\ntd[data-v-6b40bba4] {\n  vertical-align: middle !important;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nth[data-v-6b40bba4],\n.btn-group[data-v-6b40bba4] {\n  white-space: nowrap;\n}\nth[data-v-6b40bba4],\ntd[data-v-6b40bba4] {\n  vertical-align: middle !important;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37923,7 +37923,17 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("td"),
+              _c("td", [
+                _c("div", { staticClass: "btn-group btn-group-sm border-0" }, [
+                  _c("button", { staticClass: "btn btn-primary shadow-none" }, [
+                    _c("i", { staticClass: "fas fa-edit" }),
+                  ]),
+                  _vm._v(" "),
+                  _c("button", { staticClass: "btn btn-danger shadow-none" }, [
+                    _c("i", { staticClass: "fas fa-trash" }),
+                  ]),
+                ]),
+              ]),
             ]),
           ]
         ),

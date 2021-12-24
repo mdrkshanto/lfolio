@@ -27,7 +27,16 @@
             corrupti maiores hic a eveniet molestiae maxime possimus
             praesentium, autem fugit porro pariatur.
           </td>
-          <td></td>
+          <td>
+            <div class="btn-group btn-group-sm border-0">
+              <button class="btn btn-primary shadow-none">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-danger shadow-none">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </td>
         </tbody>
       </table>
     </div>
@@ -35,7 +44,8 @@
   </div>
 </template>
 <style scoped>
-th {
+th,
+.btn-group {
   white-space: nowrap;
 }
 th,
