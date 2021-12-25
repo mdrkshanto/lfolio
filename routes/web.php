@@ -17,7 +17,7 @@ Route::get('/contact',[HomeController::class, 'users']);
 
 Route::get('/admin',[AdminController::class, 'admin']);
 Route::get('/dashboard',[AdminController::class, 'admin']);
-Route::get('/admin-home',[AdminController::class, 'admin']);
+Route::get('/homepage',[AdminController::class, 'admin']);
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');

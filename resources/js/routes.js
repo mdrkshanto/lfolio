@@ -50,7 +50,7 @@ export const routes = [
         component: Dashboard
     },
     {
-        path: '/admin-home',
+        path: '/homepage',
         name: 'adminHome',
         meta: 'Home Page',
         component: AdminHome

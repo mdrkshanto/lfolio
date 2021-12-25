@@ -30,7 +30,7 @@
               @click.prevent="passToggle"
               ><i
                 class="fas"
-                :class="type === 'password' ? 'fa-eye-slash' : 'fa-eye'"
+                :class="type === 'password' ? 'fa-eye-slash' : 'fa-eye text-primary'"
               ></i
             ></label>
           </div>

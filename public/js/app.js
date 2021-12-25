@@ -7508,7 +7508,7 @@ var routes = [{
   meta: 'Dashboard',
   component: _components_backEnd_dashboard_index__WEBPACK_IMPORTED_MODULE_6__["default"]
 }, {
-  path: '/admin-home',
+  path: '/homepage',
   name: 'adminHome',
   meta: 'Home Page',
   component: _components_backEnd_home_index__WEBPACK_IMPORTED_MODULE_7__["default"]
@@ -37727,7 +37727,10 @@ var render = function () {
                 [
                   _c("i", {
                     staticClass: "fas",
-                    class: _vm.type === "password" ? "fa-eye-slash" : "fa-eye",
+                    class:
+                      _vm.type === "password"
+                        ? "fa-eye-slash"
+                        : "fa-eye text-primary",
                   }),
                 ]
               ),
