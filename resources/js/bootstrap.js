@@ -5,7 +5,7 @@ try {
     require('bootstrap/dist/js/bootstrap.bundle.min')
     window.Vue = require('vue/dist/vue')
     window.VueRouter = require('vue-router/dist/vue-router')
-    window.from = require('vform')
+    window.From = require('vform/dist/vform.es')
     require("../../public/backEnd/assets/dist/js/adminlte.min")
     require("../../public/backEnd/assets/dist/js/demo")
 } catch (error) { }
