@@ -2,7 +2,7 @@
   <div class="wrapper">
     <Header v-if="$route.name !== 'admin'" />
     <MainMenu v-if="$route.name !== 'admin'" />
-    <MainContents class="bg-dark" />
+    <MainContents />
   </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="card card-dark bg-dark">
+  <div class="card">
     <div class="card-header">
       <span class="card-title fw-bolder">Over View</span>
     </div>
@@ -7,7 +7,8 @@
       <table
         class="
           table table-sm table-dark table-striped table-bordered
-          text-center rounded
+          text-center
+          rounded
         "
       >
         <thead>
@@ -22,17 +23,14 @@
           <td>Md Rezaul Karim Shanto</td>
           <td>Full Stack Web Developer</td>
           <td>
-            I am a fully professional full stack web developer Involving with latest web designing and technologies is a great feel free to contact creative.
+            I am a fully professional full stack web developer Involving with
+            latest web designing and technologies is a great feel free to
+            contact creative.
           </td>
           <td>
-            <div class="btn-group btn-group-sm border-0">
-              <button class="btn btn-primary shadow-none">
-                <i class="fas fa-edit"></i>
-              </button>
-              <button class="btn btn-danger shadow-none">
-                <i class="fas fa-trash"></i>
-              </button>
-            </div>
+            <a href="#" class="btn btn-sm btn-primary nav-link text-primary shadow-none">
+              <i class="fas fa-edit"></i>
+            </a>
           </td>
         </tbody>
       </table>
